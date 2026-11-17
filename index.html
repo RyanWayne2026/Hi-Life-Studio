@@ -90,7 +90,7 @@ var S = { /* [jam, kelas, pelatih, lantai, catatan] */
 var days = Object.keys(S), cur = days[0];
 var $ = function(i){return document.getElementById(i)};
 
-$("wa").href = "https://wa.link/hswylx";
+$("wa").href = "https://wa.me/" + WA + "?text=" + encodeURIComponent("Halo admin Hilife Studio \uD83D\uDC4B\nSaya mau reservasi kelas.\n\nNama:\nKelas yang diminati:\nHari & jam:");
 
 try{ /* pilih hari ini (WIB) sebagai tab awal */
   var wd = new Date().toLocaleDateString("en-US",{weekday:"long",timeZone:"Asia/Jakarta"});
